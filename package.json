@@ -1,0 +1,26 @@
+{
+  "name": "@dense-labs/eslint",
+	"version": "1.0.0",
+	"description": "",
+	"auth": "move11@126.com",
+	"homepage": "https://github.com/dense-labs/eslint",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dense-labs/eslint"
+	},
+	"keywords": [
+		"eslint", "setting"
+	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	},
+  "scripts": {
+    "release": "release-it"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "release-it": "^15.10.1"
+  }
+}
