@@ -15,12 +15,12 @@
 		"access": "public",
 		"registry": "https://registry.npmjs.org"
 	},
-  "scripts": {
-    "release": "release-it"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "release-it": "^15.10.1"
-  }
+	"scripts": {
+		"release": "release-it"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"release-it": "^15.10.1"
+	}
 }
