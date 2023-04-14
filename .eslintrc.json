@@ -1,5 +1,4 @@
 {
-	"root": true, // 禁止接着往上找
 	"env": {
 		"node": true,
 		"es2021": true,

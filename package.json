@@ -1,15 +1,17 @@
 {
-  "name": "@dense-labs/eslint",
+	"name": "@dense-labs/eslint",
 	"version": "1.0.0",
 	"description": "",
 	"auth": "move11@126.com",
 	"homepage": "https://github.com/dense-labs/eslint",
+	"main": ".eslintrc.json",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dense-labs/eslint"
 	},
 	"keywords": [
-		"eslint", "setting"
+		"eslint",
+		"setting"
 	],
 	"publishConfig": {
 		"access": "public",
