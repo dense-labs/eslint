@@ -4,7 +4,7 @@
 	"description": "",
 	"auth": "move11@126.com",
 	"homepage": "https://github.com/dense-labs/eslint",
-	"main": ".eslintrc.json",
+	"main": "./index.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dense-labs/eslint"
