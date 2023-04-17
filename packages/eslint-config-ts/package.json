@@ -23,14 +23,10 @@
         "eslint": ">=7.4.0"
     },
     "dependencies": {
-        "eslint-plugin-vue": "^9.10.0",
-        "local-pkg": "^0.4.3"
-    },
-    "devDependencies": {
         "eslint": "^8.37.0",
         "eslint-config-prettier": "^8.8.0",
-        "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-vue": "^9.10.0",
+        "eslint-plugin-prettier": "^4.2.1",
         "@typescript-eslint/parser": "^5.58.0",
         "prettier": "^2.8.7",
         "typescript": "^5.0.2"
