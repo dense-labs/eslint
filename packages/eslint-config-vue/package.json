@@ -1,0 +1,38 @@
+{
+    "name": "@dense-labs/eslint-config-vue",
+    "version": "1.0.0",
+    "description": "",
+    "author": "DenseFog <move11@126.com> (https://github.com/move132/)",
+    "license": "MIT",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	},
+    "scripts": {
+		"release": "release-it"
+	},
+    "keywords": [
+        "eslint-config"
+    ],
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "peerDependencies": {
+        "@typescript-eslint/parser": "5.58.0",
+        "eslint": ">=7.4.0"
+    },
+    "dependencies": {
+        "eslint-plugin-vue": "^9.10.0",
+        "local-pkg": "^0.4.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.37.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-vue": "^9.10.0",
+		"@typescript-eslint/parser": "^5.58.0",
+		"prettier": "^2.8.7",
+		"typescript": "^5.0.2"
+    }
+}

@@ -1,35 +1,20 @@
 {
-	"name": "@dense-labs/eslint",
-	"version": "1.0.2",
-	"description": "",
-	"auth": "move11@126.com",
-	"homepage": "https://github.com/dense-labs/eslint",
-	"main": ".eslintrc.json",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/dense-labs/eslint"
-	},
-	"keywords": [
-		"eslint",
-		"setting"
-	],
-	"publishConfig": {
-		"access": "public",
-		"registry": "https://registry.npmjs.org"
-	},
+	"name": "dense-labs",
+	"private": true,
 	"scripts": {
-		"release": "release-it"
+		"release": "turbo run release --no-daemon"
 	},
-	"author": "",
-	"license": "ISC",
 	"devDependencies": {
-		"release-it": "^15.10.1",
+		"@typescript-eslint/parser": "^5.58.0",
 		"eslint": "^8.36.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-vue": "^9.10.0",
-		"@typescript-eslint/parser": "^5.58.0",
 		"prettier": "^2.8.7",
+		"release-it": "^15.10.1",
 		"typescript": "^5.0.2"
+	},
+	"dependencies": {
+		"turbo": "^1.9.1"
 	}
 }
