@@ -2,6 +2,8 @@
 	"name": "dense-labs",
 	"private": true,
 	"scripts": {
+		"r:ts": "cd ./packages/eslint-config-ts && npm run release",
+		"r:vue": "cd ./packages/eslint-config-vue && npm run release",
 		"release": "turbo run release --no-daemon"
 	},
 	"devDependencies": {
