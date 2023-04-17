@@ -53,6 +53,7 @@ module.exports = {
 	},
 	"globals": {
 		"defineOptions": true
-	}
+	},
+	"ignorePatterns": ["node_modules/", "dist/"]
 }
 

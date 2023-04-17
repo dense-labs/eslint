@@ -39,6 +39,7 @@ module.exports = {
 		'prefer-const': 'off',
 		// 禁止使用 var，而应该用 let 或 const
 		"no-var": "error"
-	}
+	},
+	"ignorePatterns": ["node_modules/", "dist/"]
 }
 
