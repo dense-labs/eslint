@@ -4,7 +4,7 @@
 	"scripts": {
 		"r:ts": "cd ./packages/eslint-config-ts && npm run release",
 		"r:vue": "cd ./packages/eslint-config-vue && npm run release",
-		"release": "turbo run release --no-daemon"
+		"release": "bumpp -r && pnpm -r publish"
 	},
 	"devDependencies": {
 		"@typescript-eslint/parser": "^5.58.0",
@@ -17,6 +17,8 @@
 		"typescript": "^5.0.2"
 	},
 	"dependencies": {
+		"bumpp": "^9.1.0",
 		"turbo": "^1.9.1"
-	}
+	},
+	"version": "1.0.4"
 }
